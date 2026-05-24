@@ -194,17 +194,27 @@ body {
   margin-right: 50px;
 }
 
+.experiences__company {
+  margin-bottom: 30px;
+}
+
+.experiences__company:last-child {
+  margin-bottom: 0;
+}
+
+.experiences__company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
-  margin-bottom: 20px;
-}
-
-.experiences__company-header-durability {
-  color: var(--durability-text-color);
-  text-align: left;
-  margin-bottom: 10px;
-  font-size: 15px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 5px;
 }
 
 .experiences__company-header-name {
@@ -212,7 +222,15 @@ body {
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.experiences__company-header-durability {
+  color: var(--durability-text-color);
+  text-align: right;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .experiences__company-project {
